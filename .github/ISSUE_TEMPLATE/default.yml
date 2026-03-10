@@ -1,0 +1,19 @@
+name: Default Issue
+description: Organization-wide default issue form
+title: "[Issue] "
+assignees:
+  - LQ-Epoch
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: 问题描述
+      description: 请描述问题、需求或待办的核心内容。
+      placeholder: 请写明背景、现状和期望结果。
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 补充信息
+      description: 可填写复现步骤、影响范围、日志、截图或相关链接。
